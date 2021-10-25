@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"//h1[text()='We take service personally.']\") still not displayed after 10000ms",
+      "children" : [ {
+        "name" : "Verify the Service and Repair Page is launched",
+        "uid" : "47b8bada094c96f8",
+        "parentUid" : "c7d75d280df229921dab855238643b7e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635159294007,
+          "stop" : 1635159309923,
+          "duration" : 15916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-95.0.4638.54" ]
+      } ],
+      "uid" : "c7d75d280df229921dab855238643b7e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

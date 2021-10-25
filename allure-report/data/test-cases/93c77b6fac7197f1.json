@@ -1,0 +1,67 @@
+{
+  "uid" : "93c77b6fac7197f1",
+  "name" : "Verify the Volvo Experience Page is launched",
+  "fullName" : "Launch the Volvo Home Page.Verify the Volvo Experience Page is launched",
+  "historyId" : "956edc265538ea6c9a1af61aa87ba75c",
+  "time" : {
+    "start" : 1635159309924,
+    "stop" : 1635159314937,
+    "duration" : 5013
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Launch the Volvo Home Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Launch the Volvo Home Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify the Volvo Experience Page is launched"
+  }, {
+    "name" : "package",
+    "value" : "Launch the Volvo Home Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-95.0.4638.54"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ac64da2351a678c",
+      "status" : "broken",
+      "statusDetails" : "element (\"//h2[text()='Volvo experience']\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1635159239230,
+        "stop" : 1635159253170,
+        "duration" : 13940
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93c77b6fac7197f1.json",
+  "parameterValues" : [ "chrome-95.0.4638.54" ]
+}

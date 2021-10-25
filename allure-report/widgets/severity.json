@@ -1,0 +1,21 @@
+[ {
+  "uid" : "93c77b6fac7197f1",
+  "name" : "Verify the Volvo Experience Page is launched",
+  "time" : {
+    "start" : 1635159309924,
+    "stop" : 1635159314937,
+    "duration" : 5013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47b8bada094c96f8",
+  "name" : "Verify the Service and Repair Page is launched",
+  "time" : {
+    "start" : 1635159294007,
+    "stop" : 1635159309923,
+    "duration" : 15916
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

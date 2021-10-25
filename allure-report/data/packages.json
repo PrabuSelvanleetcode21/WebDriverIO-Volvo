@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Launch the Volvo Home Page",
+    "children" : [ {
+      "name" : "Verify the Service and Repair Page is launched",
+      "uid" : "47b8bada094c96f8",
+      "parentUid" : "d9e2bc0a263e79db411d8edb84d83b0b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1635159294007,
+        "stop" : 1635159309923,
+        "duration" : 15916
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    }, {
+      "name" : "Verify the Volvo Experience Page is launched",
+      "uid" : "93c77b6fac7197f1",
+      "parentUid" : "d9e2bc0a263e79db411d8edb84d83b0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635159309924,
+        "stop" : 1635159314937,
+        "duration" : 5013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-95.0.4638.54" ]
+    } ],
+    "uid" : "d9e2bc0a263e79db411d8edb84d83b0b"
+  } ]
+}
